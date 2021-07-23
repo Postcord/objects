@@ -1,3 +1,3 @@
-module git.kelwing.dev/Postcord/objects
+module github.com/Postcord/objects
 
 go 1.14
