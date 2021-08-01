@@ -65,7 +65,7 @@ type ApplicationCommand struct {
 	ID                Snowflake                  `json:"id,omitempty"`
 	ApplicationID     Snowflake                  `json:"application_id,omitempty"`
 	Name              string                     `json:"name"`
-	Description       string                     `json:"description"`
+	Description       string                     `json:"description,omitempty"`
 	Options           []ApplicationCommandOption `json:"options"`
 	DefaultPermission bool                       `json:"default_permission"`
 	Type              *int                       `json:"type,omitempty"`
