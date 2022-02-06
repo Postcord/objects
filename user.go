@@ -1,5 +1,7 @@
 package objects
 
+//go:generate stringer -type UserFlags,PremiumType,ActivityType,ActivityFlag -output user_string.go
+
 var _ Mentionable = (*User)(nil)
 var _ SnowflakeObject = (*User)(nil)
 

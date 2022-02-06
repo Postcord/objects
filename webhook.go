@@ -1,5 +1,7 @@
 package objects
 
+//go:generate stringer -type=WebhookType -output webhook_string.go
+
 var _ SnowflakeObject = (*Webhook)(nil)
 
 // https://discord.com/developers/docs/resources/webhook#webhook-object-webhook-types
